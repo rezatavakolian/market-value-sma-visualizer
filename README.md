@@ -1,21 +1,7 @@
-## Overview
-This project provides a minimal yet extensible workflow for detecting and visualizing **bullish SMA crossovers**.  
-It fetches market data from an API, computes simple moving averages (SMA), and generates annotated plots that highlight crossover signals.
+📈 Track the daily market value of the Tehran Stock Exchange — including both TSE (Bourse) and IFB (Farabourse).
+Bours Sample:
+<img src="https://github.com/rezatavakolian/market-value-sma-visualizer/blob/master/images/bours.png" alt="Alt text for first image" width="400" height="300"/>
 
-### Features
--  **API Fetching** – Pulls time-series market data seamlessly  
--  **SMA Calculation** – Computes short- and long-term moving averages  
--  **Bullish Cross Detection** – Flags golden cross events (short SMA crossing above long SMA)  
--  **Visualization** – Produces clear, publication-ready plots with crossover markers  
+Farabours Sample:
+<img src="https://github.com/rezatavakolian/market-value-sma-visualizer/blob/master/images/farabours.png" alt="Alt text for first image" width="400" height="300"/>
 
-### Use Cases
-- Quick signal prototyping for trading strategies  
-- Educational demos on moving averages and crossovers  
-- Lightweight visualization tool for market analysis  
-
-### Tech Stack
-- **Python** (async-friendly, modular design)  
-- **pandas** for data wrangling  
-- **matplotlib** / **plotly** for visualization  
-
----
